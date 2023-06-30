@@ -15,3 +15,7 @@
 /* eslint no-console: 0 */
 
 'use strict';
+
+const statsExtenders = require("./src/stats");
+module.exports.statsExtenders = statsExtenders;
+

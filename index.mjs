@@ -15,3 +15,8 @@
 /* eslint no-console: 0 */
 
 'use strict';
+
+const statsExtenders = import("./src/stats");
+
+export default statsExtenders;
+
