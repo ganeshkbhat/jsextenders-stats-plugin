@@ -19,4 +19,6 @@
 const statsExtenders = require("./src/stats");
 
 module.exports.statsExtenders = statsExtenders;
-module.exports.default = 
+module.exports.default = {
+    statsExtenders
+}
