@@ -16,7 +16,7 @@
 
 'use strict';
 
-const statsExtenders = import("./src/stats");
+import { default as defaultExtender, statsExtenders } from "./index.js";
 
-export default statsExtenders;
-
+export default defaultExtender
+export statsExtenders
