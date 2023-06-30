@@ -1,0 +1,28 @@
+{
+  "name": "jsextenders-stats-plugin",
+  "version": "0.0.1",
+  "description": "jsextenders-stats-plugin for extenders package to cover statistical modules of Descriptive Statistics, Bayesian Classifier, Distributions, Linear Regression",
+  "main": "index.js",
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshkbhat/jsextenders-stats-plugin.git"
+  },
+  "author": "Ganesh B",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ganeshkbhat/jsextenders-stats-plugin/issues"
+  },
+  "homepage": "https://github.com/ganeshkbhat/jsextenders-stats-plugin#readme",
+  "keywords": [],
+  "dependencies": {
+    "extenders": "^0.0.2",
+    "simple-statistics": "^7.8.3"
+  }
+}
