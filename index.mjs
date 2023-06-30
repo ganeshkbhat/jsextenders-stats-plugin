@@ -19,4 +19,4 @@
 import { default as defaultExtender, statsExtenders } from "./index.js";
 
 export default defaultExtender
-export statsExtenders
+
